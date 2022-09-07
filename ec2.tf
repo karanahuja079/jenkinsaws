@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIA3FKSMZ7Y2RZKOFPS"
-  secret_key = "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"
+  access_key = "AKIA3FKSMZ7Y43365XHV"
+  secret_key = "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"
 }
 #
 #creating EC2 on aws
