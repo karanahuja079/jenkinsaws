@@ -3,7 +3,7 @@ provider "aws" {
   access_key = "AKIA3FKSMZ7Y43365XHV"
   secret_key = "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"
 }
-#
+##
 #creating EC2 on aws
 
 resource "aws_instance" "firstec2" {
