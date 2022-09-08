@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIA3FKSMZ7Y43365XHV"
-  secret_key = "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"
+  access_key = "AKIA3FKSMZ7Y3VMTWV43"
+  secret_key = "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"
 }
 ##
 #creating EC2 on aws
@@ -15,3 +15,4 @@ resource "aws_instance" "firstec2" {
 # output "ec2_data" {
 #   value = aws_instance.firstec2.ami
 # }
+#
