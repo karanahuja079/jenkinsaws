@@ -1,0 +1,9 @@
+<html>
+<body>
+<<<<<<< HEAD
+	<h1> AAXXWelcome to UAT serve. BC </h1>
+=======
+	<h1> prod WWelcome to UAT serve. BC </h1>
+>>>>>>> prod
+</body>
+</html>

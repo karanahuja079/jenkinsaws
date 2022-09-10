@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('GIT Clone') {
+            steps {
+                echo 'Cloning..'
+		git 'https://github.com/karanahuja079/jenkinsaws.git'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
